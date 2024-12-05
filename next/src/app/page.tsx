@@ -6,14 +6,14 @@ const HomePage: React.FC = () => {
     <div>
       {/* Navbar */}
       <nav className="flex gap-8 items-center p-5 border-b">
-        <div className="text-2xl">ModernShop</div>
-        <div className="flex space-x-6 font-semibold">
+        <div className="text-2xl font-bold">ModernShop</div>
+        <div className="flex space-x-6">
           <a href="/" className="hover:text-gray-600">Home</a>
           <a href="/shop" className="hover:text-gray-600">Shop</a>
           <a href="/about" className="hover:text-gray-600">About</a>
           <a href="/contact" className="hover:text-gray-600">Contact</a>
         </div>
-        <div className="relative text-xl">
+        <div className="relative">
           <button>
             <span className="absolute top-0 right-0 text-xs bg-blue-500 text-white rounded-full px-1.5">
               0
